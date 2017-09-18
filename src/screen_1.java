@@ -7,7 +7,7 @@
 
 /**
  *
- * @author Dixita Mishra
+ * @author Rajat Mishra
  */
 import AppPackage.AnimationClass;
 import java.awt.Toolkit;

@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Dixita Mishra
+ * @author Rajat Mishra
  */
 public class screen_3 extends javax.swing.JFrame {
 private DisplayManager mgr;

@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Dixita Mishra
+ * @author Rajat Mishra
  */
 public class screen_2 extends javax.swing.JFrame {
 private DisplayManager mgr;
