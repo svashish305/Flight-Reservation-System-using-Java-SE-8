@@ -89,7 +89,7 @@ public class BookingManager {
     }   
     
     public void updateSeats(int passno, String doj, ComboFlight mycf) throws FileNotFoundException, IOException, ParseException { 
-        String filepath = "/home/Dixita Mishra/NetBeansProjects/Logic/src/seatmatrix.csv";
+        String filepath = "seatmatrix.csv";
         int row, column, monthdate, p=0;
         String month;
         monthdate = Integer.parseInt(doj.substring(0, 2));
@@ -126,7 +126,7 @@ public class BookingManager {
         }
         
         try {
-            FileWriter bw = new FileWriter("/home/Dixita Mishra/NetBeansProjects/Logic/src/output.csv");
+            FileWriter bw = new FileWriter("output.csv");
             for(int i=0;i<42;i++) {
                 for(int j=0;j<45;j++) {
                     bw.write(dataArr[i][j]+",");
